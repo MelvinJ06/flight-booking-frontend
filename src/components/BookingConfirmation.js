@@ -1,4 +1,3 @@
-// src/pages/BookingConfirmation.js
 import React from 'react';
 import PayPalButton from '../components/PayPalButton';
 

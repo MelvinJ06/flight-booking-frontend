@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom styles */
 body {
     @apply bg-gray-100 font-sans leading-normal tracking-normal;
 }

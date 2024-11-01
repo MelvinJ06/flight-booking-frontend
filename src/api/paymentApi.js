@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const PAYMENT_API_URL = 'http://localhost:3000/api/payments'; // Adjust the base URL as needed
-
+const PAYMENT_API_URL = 'http://localhost:3000/api/payments'; 
 export const createPaymentIntent = async (amount, currency) => {
     try {
         const response = await axios.post(`${PAYMENT_API_URL}/create-payment-intent`, {
@@ -27,4 +26,3 @@ export const confirmPayment = async (paymentIntentId) => {
     }
 };
 
-// Add more payment-related functions as needed

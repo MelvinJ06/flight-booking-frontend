@@ -9,9 +9,9 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const fetchUserData = async () => {
             try {
-                const response = await fetch('/api/user'); // Replace with your API endpoint
+                const response = await fetch('/api/user'); 
                 const data = await response.json();
-                setUser(data.user); // Assuming your API response structure includes user data
+                setUser(data.user); 
             } catch (error) {
                 console.error('Failed to fetch user data', error);
             } finally {

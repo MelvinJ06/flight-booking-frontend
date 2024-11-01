@@ -15,7 +15,6 @@ const Booking = () => {
         setLoading(false);
         if (result.success) {
             alert('Booking successful!');
-            // Redirect to confirmation page
         } else {
             alert('Booking failed');
         }
